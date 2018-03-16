@@ -1,9 +1,10 @@
 {
-  "projectileName" : "haydeepistolshot",
-  "image" : "haydeepistolshot.png",
-  "lightColor" : [96, 10, 3],
+  "projectileName" : "haydeerifleshot",
+  "image" : "haydeerifleshot.png",
+  "lightColor" : [95, 16, 89],
   "fullbright" : true,
   "animationCycle" : 0.25,
+  "timeToLive" : 0.001,
   "actionOnCollide" : [
     {
       "action" : "sound",
@@ -19,9 +20,14 @@
     {
       "action" : "config",
       "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "haydeerifleshotactual",
+      "angleAdjust" : 0,
+      "fuzzAngle" : 1
     }
   ],
-  "power" : 200.0,
   "damageKind" : "haydeegeneral"
 }
 

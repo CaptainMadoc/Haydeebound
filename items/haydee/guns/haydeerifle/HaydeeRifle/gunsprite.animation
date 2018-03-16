@@ -1,7 +1,7 @@
 {
 	"globalTagDefaults" : {
-		"gunmodel" : "HaydeeSMG",
-		"bullettype" : "haydeesmg",
+		"gunmodel" : "HaydeeRifle",
+		"bullettype" : "haydeerifle",
 		
 		"armbackframe" : "rotation",
 		"armbackdirectives" : "",
@@ -43,7 +43,7 @@
 				"properties" : {
 					"zLevel" : 0,
 					"centered" : false,
-					"offset" : [-3.75, -2.2],
+					"offset" : [-4.375, -2.2],
 					"transformationGroups" : ["armback", "offset"],
 					"image" : "/humanoid/<species>/backarm.png:<armbackframe><armbackdirectives>"
 				}
@@ -53,7 +53,7 @@
 				"properties" : {
 					"zLevel" : 1,
 					"centered" : false,
-					"offset" : [-3.75, -2.2],
+					"offset" : [-4.375, -2.2],
 					"transformationGroups" : ["armback", "offset"],
 					"image" : "<armbackarmor>"
 				}
@@ -84,7 +84,7 @@
 				"properties" : {
 					"zLevel" : 16,
 					"transformationGroups" : ["muzzle", "gun", "offset"],
-					"offset" : [1.475, 0.25],
+					"offset" : [1.25, 0.1],
 					"fullbright" : true,
 					"centered" : false
 				},
@@ -92,7 +92,7 @@
 					"firing" : {
 						"fire" : {
 							"properties" : {
-								"image" : "/animations/muzzleflash/haydeesmgflash/haydeesmgflash.png"
+								"image" : "/animations/muzzleflash/haydeerifleflash/haydeerifleflash.png"
 							}
 						},
 						"off" : {
@@ -105,7 +105,7 @@
 				"properties" : {
 					"zLevel" : 6,
 					"centered" : false,
-					"offset" : [0.875, 0.175],
+					"offset" : [0, 0.3],
 					"transformationGroups" : ["gun", "offset"],
 					"image" : "/items/haydee/sprite/guns/<bullettype>/<gunmodel>/gun.png"
 				}
@@ -115,7 +115,7 @@
 				"properties" : {
 					"zLevel" : 2,
 					"centered" : false,
-					"offset" : [0.875, 0.175],
+					"offset" : [0, 0.3],
 					"transformationGroups" : ["gunbg", "gun", "offset"],
 					"image" : "/items/haydee/sprite/guns/<bullettype>/<gunmodel>/gunbg.png"
 				}
@@ -125,7 +125,7 @@
 				"properties" : {
 					"zLevel" : 4,
 					"centered" : false,
-					"offset" : [0.875, 0.175],
+					"offset" : [0, 0.3],
 					"transformationGroups" : ["hidemag", "mag", "gun", "offset"],
 					"image" : "/items/haydee/sprite/guns/<bullettype>/<gunmodel>/mag.png"
 				}
@@ -135,7 +135,7 @@
 				"properties" : {
 					"zLevel" : 3,
 					"centered" : false,
-					"offset" : [0.875, 0],
+					"offset" : [0, 0],
 					"transformationGroups" : ["bullet", "mag", "gun", "offset"],
 					"image" : "/items/haydee/sprite/guns/<bullettype>/<gunmodel>/bullet.png"
 				}
@@ -145,7 +145,7 @@
 				"properties" : {
 					"zLevel" : 5,
 					"centered" : false,
-					"offset" : [0.875, 0.175],
+					"offset" : [0, 0.3],
 					"transformationGroups" : ["lever1", "gun", "offset"],
 					"image" : "/items/haydee/sprite/guns/<bullettype>/<gunmodel>/lever1.png"
 				}
@@ -155,7 +155,7 @@
 				"properties" : {
 					"zLevel" : 7,
 					"centered" : false,
-					"offset" : [0.875, 0.175],
+					"offset" : [0, 0.3],
 					"transformationGroups" : ["lever2", "gun", "offset"],
 					"image" : "/items/haydee/sprite/guns/<bullettype>/<gunmodel>/lever2.png"
 				}
@@ -196,7 +196,7 @@
 	},
 	
 	"sounds" : {
-		"fire" : ["/sfx/haydee/weapon/HaydeeSMG.ogg"],
+		"fire" : ["/sfx/haydee/weapon/HaydeeRifle.ogg"],
 		"dry" : ["/sfx/objects/hiddenswitch1.ogg"],
 		"reload" : ["/sfx/haydee/weapon/reloading.ogg"],
 		"reloadEnd" : ["/sfx/haydee/weapon/reloaded.ogg"]
@@ -205,7 +205,7 @@
 	"lights" : {
 		"muzzleFlash" : {
 			"pointBeam" : 0,
-			"color" : [63, 63, 63],
+			"color" : [95, 16, 89],
 			"pointLight" : false,
 			"transformationGroups" : ["muzzle", "gun", "offset"],
 			"active" : false,
@@ -225,14 +225,14 @@
 						"color" : [255, 255, 255, 255],
 						"size" : 1,
 						"destructionTime" : 0.075,
-						"image" : "/items/haydee/sprite/shells/emptyhaydeesmgammo.png", //shells here
+						"image" : "/items/haydee/sprite/shells/emptyhaydeerifleammo.png", //shells here
 						"destructionAction" : "fade",
 						"collidesForeground" : true,
 						"timeToLive" : 1,
 						"type" : "textured",
 						"layer" : "front",
 						"flippable" : true,
-						"initialVelocity" : [-19, 16],
+						"initialVelocity" : [-10, 16],
 						"approach" : [0, -100],
 						"position" : [0, 0],
 						"fullbright" : false
@@ -261,7 +261,7 @@
 						"angularVelocity" : 360,
 						"initialVelocity" : [0, 1],
 						"approach" : [0, -1],
-						"position" : [0, -0.25],
+						"position" : [0.5, -0.25],
 						"fullbright" : false
 					}
 				}

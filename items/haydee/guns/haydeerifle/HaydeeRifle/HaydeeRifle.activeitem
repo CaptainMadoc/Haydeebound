@@ -1,15 +1,15 @@
 {
-	"itemName" : "HaydeeSMG",
+	"itemName" : "HaydeeRifle",
 	"price" : 0,
 	"maxStack" : 1,
 	"rarity" : "common",
-	"category" : "SMG",
+	"category" : "Rifle",
 	"description" : "",
-	"shortdescription" : "Haydee Mk 1 SMG",
+	"shortdescription" : "Haydee Rifle Mk 1",
 	"tooltipKind" : "base",
 	"twoHanded" : true,
 	
-	"inventoryIcon" : "/items/haydee/sprite/guns/haydeesmg/HaydeeSMG/icon.png",
+	"inventoryIcon" : "/items/haydee/sprite/guns/haydeerifle/HaydeeRifle/icon.png",
 	
 	"animation" : "gunsprite.animation",
 	"animationParts" : { },
@@ -19,17 +19,17 @@
 		"tracks" : {
 			"shoot" : [
 				{
-					"value" : {"gun_rotation" : 0, "lever1_x" : 0, "offset_x" : -0.25, "lever2_x" : -0.625},
-					"step" : 2,
+					"value" : {"gun_rotation" : 0, "lever1_x" : 0, "offset_x" : -0.125, "lever2_x" : -0.5},
+					"step" : 5,
 					"sound" : {}
 				},
 				{
-					"value" : {"gun_rotation" : 0, "lever1_x" : -0.25, "offset_x" : -0.25, "lever2_x" : -0.125},
-					"step" : 6,
+					"value" : {"gun_rotation" : 0, "lever1_x" : 0, "offset_x" : -0.125, "lever2_x" : -0.125},
+					"step" : 5,
 					"sound" : {}
 				},
 				{
-					"value" : {"gun_rotation" : 0, "lever1_x" : -0.25, "offset_x" : -0.1, "lever2_x" : 0},
+					"value" : {"gun_rotation" : 0, "lever1_x" : -0.25, "offset_x" : 0, "lever2_x" : 0},
 					"step" : 6,
 					"sound" : {}
 				},
@@ -39,14 +39,14 @@
 					"sound" : {}
 				},
 				{
-					"value" : {"lever1_x" : 0, "bullet_y": 0.125},
+					"value" : {"gun_rotation" : 0, "lever1_x" : 0, "bullet_y": 0.125},
 					"step" : 6,
 					"sound" : {}
 				}
 			],
 			"reload" : [
 				{
-					"value" : {"mag_y" : 0, "lever1_x" : -0.375},	//REPLACE MAG
+					"value" : {"mag_y" : 0, "lever1_x" : -0.25},	//REPLACE MAG
 					"step" : 10,
 					"sound" : {}
 				},
@@ -61,7 +61,7 @@
 					"sound" : {}
 				},
 				{
-					"value" : {"mag_y" : 0.125, "mag_x" : -1.5, "armback_x": -0.75},
+					"value" : {"mag_y" : 0.125, "mag_x" : -1.5, "armback_x": 0.125},
 					"step" : 10,
 					"sound" : {}
 				},
@@ -106,7 +106,7 @@
 					"sound" : {}
 				},
 				{
-					"value" : {"armback_x" : 0.625,  "armback_y" : 0, "armback_rotation" : 0},	//COCK END
+					"value" : {"armback_x" : 0.625,  "armback_y" : 0, "armback_rotation" : 5},	//COCK END
 					"step" : 5,
 					"sound" : {}
 				}
@@ -118,27 +118,27 @@
 					"sound" : {}
 				},
 				{
-					"value" : {"armback_x" : 0.4, "armback_y" : 0, "armback_rotation" : 15, "bullet_y": 0.125},
+					"value" : {"armback_x" : 0.75, "armback_y" : 0, "armback_rotation" : 15, "bullet_y": 0.125},
 					"step" : 5,
 					"sound" : {}
 				},
 				{
-					"value" : {"mag_y" : 0, "gun_rotation" : 15, "gun_y" : -0.75, "armback_y" : -0.25, "armangle" : -5},
+					"value" : {"mag_y" : 0, "gun_rotation" : 15, "gun_y" : -0.75, "armback_y" : 0, "armangle" : -5},
 					"step" : 6,
 					"sound" : {}
 				},
 				{
-					"value" : {"mag_y" : 0, "lever1_x" : -0.25, "lever2_x" : -0.25, "gun_x" : -1.25, "armback_x" : 0.4},
+					"value" : {"mag_y" : 0, "lever1_x" : -0.25, "lever2_x" : -0.4, "gun_x" : -1.25, "armback_x" : 0.25},
 					"step" : 4,
 					"sound" : {}
 				},
 				{
-					"value" : {"mag_y" : 0, "lever1_x" : 0, "lever2_x" : -0.625, "gun_x" : -1.25, "gun_rotation" : 0, "gun_y" : -0.75, "armangle" : 0, "armback_x" : 0.25, "armback_y" : -0.125},
+					"value" : {"mag_y" : 0, "lever1_x" : 0, "lever2_x" : -0.7, "gun_x" : -1.25, "gun_rotation" : 0, "gun_y" : -0.75, "armangle" : 0, "armback_x" : 0, "armback_y" : 0.125},
 					"step" : 6,
 					"sound" : {}
 				},
 				{
-					"value" : {"armback_x" : 0.625,  "armback_y" : 0, "lever2_x" : 0, "armback_rotation" : 0},
+					"value" : {"armback_x" : 0.625,  "armback_y" : 0, "lever2_x" : 0, "armback_rotation" : 5},
 					"step" : 5,
 					"sound" : {}
 				}
@@ -146,7 +146,7 @@
 		},
 		"fixed" : false,
 		"doneplaying" : "",
-		"step" : 35,
+		"step" : 30,
 		"currentstep" : 1
 	}, 
 	"parts" : {
@@ -182,9 +182,9 @@
 			
 			"armback_x" : 0.625,
 			"armback_y" : 0,
-			"armback_xRot" : -2,
+			"armback_xRot" : -0.75,
 			"armback_yRot" : 0.125,
-			"armback_rotation" : 0.5,
+			"armback_rotation" : 5,
 			
 			"armfront_x" : 0,
 			"armfront_y" : 0,
@@ -195,30 +195,30 @@
 	
 	//The higher, The more harder to control
 	"gunConfig" : {	
-		"inaccuracy" 		: 4, //Your random number generator
+		"inaccuracy" 		: 3, //Your random number generator
 		
 		//ammo bullet
-		"compatibleAmmo" 	: [ "haydeesmgammo" ],
-		"projectileConfig" 	: {"speed" : 70, "power" : 2},
-		"projectileType" 	: "haydeesmgshot",
+		"compatibleAmmo" 	: [ "haydeerifleammo" ],
+		"projectileConfig" 	: {"speed" : 90, "power" : 10},
+		"projectileType" 	: "haydeerifleshot",
 		
 		//visual sfx
 		"muzzleEffect" 		: true,
 		"smokeEffect" 		: true,
 		"shellEffect" 		: true,
-		"fireOffset" 		: [1.6, 0.55],			//the projectile pos
-		"shellOffset" 		: [1, 0.4], 		//the falling shell init pos
+		"fireOffset" 		: [3, 0.55],			//the projectile pos
+		"shellOffset" 		: [0.6, 0.5], 		//the falling shell init pos
 		"gunSounds" 		: ["fire"], 		//Sounds from .animation
 		"magToHideTransform": "hidemag",	//For mags attachments
 		
 		//mechanics
-		"fireSpeed" 		: 0.06,			//atataatatatatata
+		"fireSpeed" 		: 0.12,			//atataatatatatata
 		"fireMode" 			: "auto", 		//auto, burst, semi
-		"burstAmount" 		: 3,
+		"burstAmount" 		: 5,
 		"burstCooldown" 	: 0.8,
 		"recoilPower" 		: 1,			//The higher, The more harder to control
 		"recoilRecovery" 	: 1, 		//Higher the slower
-		"magazineMax" 		: 30,
+		"magazineMax" 		: 25,
 		"magazineCurrent"	: 0,
 		"reloadCooldown" 	: 2,
 		

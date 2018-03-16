@@ -205,7 +205,7 @@
 	"lights" : {
 		"muzzleFlash" : {
 			"pointBeam" : 0,
-			"color" : [255, 134, 130],
+			"color" : [96, 10, 3],
 			"pointLight" : false,
 			"transformationGroups" : ["muzzle", "gun", "offset"],
 			"active" : false,

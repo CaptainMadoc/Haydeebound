@@ -1,7 +1,7 @@
 {
-  "projectileName" : "haydeesmgshotactual",
-  "image" : "haydeesmgshot.png",
-  "lightColor" : [0, 48, 89],
+  "projectileName" : "haydeerifleshotactual",
+  "image" : "haydeerifleshot.png",
+  "lightColor" : [95, 16, 89],
   "fullbright" : true,
   "animationCycle" : 0.25,
   "frameNumber" : 1,
@@ -13,7 +13,6 @@
       "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
     }
   ],
-  "power" : 3,
   "damageKind" : "haydeegeneral"
 }
 

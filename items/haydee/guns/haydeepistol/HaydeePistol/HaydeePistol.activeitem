@@ -236,5 +236,5 @@
 		}
 	},
 	
-	"scripts" : ["/items/GTABound/main.lua"]
+	"scripts" : ["/items/haydee/main.lua"]
 }
