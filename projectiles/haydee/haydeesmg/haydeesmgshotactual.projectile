@@ -4,14 +4,6 @@
   "lightColor" : [255, 134, 130],
   "fullbright" : true,
   "animationCycle" : 0.25,
-  "actionOnCollide" : [
-    {
-      "action" : "sound",
-      "options" : [
-        "/sfx/haydee/HaydeeDamage.ogg"
-      ]
-    }
-  ],
   "frameNumber" : 1,
   "pointLight" : false,
   "speed" : 50,
@@ -21,7 +13,7 @@
       "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
     }
   ],
-  "power" : 2.5,
+  "power" : 3,
   "damageKind" : "haydeegeneral"
 }
 
