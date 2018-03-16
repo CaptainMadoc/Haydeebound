@@ -1,0 +1,18 @@
+{
+	"itemName" : "haydeeflechette",
+	"rarity" : "common",
+	"category" : "Ammo",
+	"price" : 0,
+	"maxStack" : 10000,
+	"inventoryIcon" : "/items/haydee/sprite/shells/haydeeflechette.png",
+	"description" : "",
+	"shortdescription" : "Haydee Flechette",
+	
+	"gunConfig" : {	
+		"compatibleAmmo" 	: [ "haydeeflechette", "haydeeflechette" ],
+		"projectileConfig" 	: {"speed" : 60, "power" : 20},
+		"projectileType" 	: "haydeeflechette"
+	},
+	
+	"scripts" : [ "ammo.lua" ]
+}

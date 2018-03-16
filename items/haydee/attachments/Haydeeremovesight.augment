@@ -1,0 +1,37 @@
+{
+	"itemName" : "Haydeeremovesight",
+	"rarity" : "common",
+	"category" : "Attachments | sight",
+	"price" : 0,
+	
+	"maxStack" : 1,
+	
+	"inventoryIcon" : "/items/gunsbound/sprite/attachments/remove.png",
+	"description" : "",
+	"shortdescription" : "Remove Sight",
+	
+	"scripts" : [ "/items/gunsbound/attachments/attach.lua" ],
+	
+	"attachementType" : "sight",
+	"attachementInfo" : {
+	
+		//changes gun parameters by adding buffs
+		"stats" : { 
+		},
+		
+		//sprite of the attachment
+		"image" : "/assetmissing.png",
+		
+		//offset self
+		"offset" : [0,0],
+		
+		//special stuff
+		"script" : null,
+		
+		//for special mags
+		"hideMag" : false,
+		
+		//For silencers
+		"replaceFireSound" : null
+	}
+}

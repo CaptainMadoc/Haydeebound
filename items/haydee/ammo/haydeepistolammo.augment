@@ -1,0 +1,18 @@
+{
+	"itemName" : "haydeepistolammo",
+	"rarity" : "common",
+	"category" : "Ammo",
+	"price" : 0,
+	"maxStack" : 10000,
+	"inventoryIcon" : "/items/haydee/sprite/shells/HaydeePistol.png",
+	"description" : "",
+	"shortdescription" : "Haydee Pistol Ammo",
+	
+	"gunConfig" : {	
+		"compatibleAmmo" 	: [ "haydeepistolammo", "haydeepistolammo" ],
+		"projectileConfig" 	: {"speed" : 70, "power" : 3},
+		"projectileType" 	: "haydeepistolshot"
+	},
+	
+	"scripts" : [ "ammo.lua" ]
+}

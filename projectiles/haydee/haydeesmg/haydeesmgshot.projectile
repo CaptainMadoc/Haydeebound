@@ -1,0 +1,35 @@
+{
+  "projectileName" : "haydeesmgshot",
+  "image" : "haydeesmgshot.png",
+  "lightColor" : [255, 134, 130],
+  "fullbright" : true,
+  "animationCycle" : 0.25,
+  "timeToLive" : 0.001,
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/haydee/haydeedamage.ogg"
+      ]
+    }
+  ],
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "speed" : 50,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "haydeesmgshotactual",
+      "angleAdjust" : 0,
+      "fuzzAngle" : 2
+    }
+  ],
+  "power" : 2.5,
+  "damageKind" : "haydeegeneral"
+}
+
+

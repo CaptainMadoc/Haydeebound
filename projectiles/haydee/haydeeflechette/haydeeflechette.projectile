@@ -1,0 +1,28 @@
+{
+  "projectileName" : "haydeeflechette",
+  "image" : "haydeeflechette.png",
+  "animationCycle" : 0.25,
+  "physics" : "haydeeflechette",
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/haydee/haydeedamage.ogg"
+      ]
+    }
+  ],
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "speed" : 50,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 200.0,
+  "damageKind" : "haydeegeneral",
+  "emitters" : [ "daggerblue" ]
+}
+
+

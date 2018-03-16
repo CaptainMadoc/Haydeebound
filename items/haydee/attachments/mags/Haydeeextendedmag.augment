@@ -1,0 +1,40 @@
+{
+	"itemName" : "Haydeeextendedmag",
+	"rarity" : "common",
+	"category" : "Attachments | mags",
+	"price" : 0,
+	
+	"maxStack" : 1,
+	
+	"inventoryIcon" : "/items/gunsbound/sprite/attachments/mags/extended.png",
+	"description" : "",
+	"shortdescription" : "Extended mag",
+	
+	"scripts" : [ "/items/gunsbound/attachments/attach.lua" ],
+	
+	"attachementType" : "mag",
+	"attachementInfo" : {
+	
+		//changes gun parameters by adding buffs
+		"stats" : { 
+			"inaccuracy" : 2,
+			"magazineMax" : 100,
+			"fireSpeed" : 1.2
+		},
+		
+		//sprite of the attachment
+		"image" : "/items/gunsbound/sprite/attachments/mags/extended.png",
+		
+		//offset self
+		"offset" : [-0.25,-0.825],
+		
+		//special stuff
+		"script" : null,
+		
+		//for special mags
+		"hideMag" : true,
+		
+		//For silencers
+		"replaceFireSound" : null
+	}
+}

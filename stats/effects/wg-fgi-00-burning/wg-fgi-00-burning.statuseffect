@@ -1,0 +1,16 @@
+{
+  "name" : "wg-fgi-00-burning",
+  "blockingStat" : "fireImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "wg-fgi-00-burning.lua"
+  ],
+
+  "animationConfig" : "wg-fgi-00-burning.animation",
+
+  "label" : "wg-fgi-00-burning",
+  "icon" : "/interface/statuses/fire.png"
+}
