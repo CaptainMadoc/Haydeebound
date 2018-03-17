@@ -10,7 +10,7 @@
 	
 	"gunConfig" : {	
 		"compatibleAmmo" 	: [ "haydeerifleammo", "haydeerifleammo" ],
-		"projectileConfig" 	: {"speed" : 70, "power" : 2},
+		"projectileConfig" 	: {"speed" : 90, "power" : 25},
 		"projectileType" 	: "haydeerifleshot"
 	},
 	

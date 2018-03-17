@@ -61,18 +61,18 @@
 					"sound" : {}
 				},
 				{
-					"value" : {"mag_y" : 0.125, "mag_x" : -1.5, "armback_x": 0.125},
-					"step" : 10,
+					"value" : {"mag_y" : 0.125, "mag_x" : -1.5, "armback_x": -0.5},
+					"step" : 15,
 					"sound" : {}
 				},
 				{
 					"value" : {"mag_y" :  -0.5, "mag_x" : 0, "armback_x": 0.5},
-					"step" : 10,
+					"step" : 15,
 					"sound" : {}
 				},
 				{
 					"value" : {"mag_y" : 0, "armangle" : 10, "armback_y": 0},
-					"step" : 10,
+					"step" : 15,
 					"sound" : {}
 				},
 				{
@@ -199,7 +199,7 @@
 		
 		//ammo bullet
 		"compatibleAmmo" 	: [ "haydeerifleammo" ],
-		"projectileConfig" 	: {"speed" : 90, "power" : 10},
+		"projectileConfig" 	: {"speed" : 90, "power" : 25},
 		"projectileType" 	: "haydeerifleshot",
 		
 		//visual sfx
@@ -207,7 +207,7 @@
 		"smokeEffect" 		: true,
 		"shellEffect" 		: true,
 		"fireOffset" 		: [3, 0.55],			//the projectile pos
-		"shellOffset" 		: [0.6, 0.5], 		//the falling shell init pos
+		"shellOffset" 		: [1.125, 0.4], 		//the falling shell init pos
 		"gunSounds" 		: ["fire"], 		//Sounds from .animation
 		"magToHideTransform": "hidemag",	//For mags attachments
 		

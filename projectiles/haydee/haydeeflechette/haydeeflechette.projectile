@@ -20,7 +20,6 @@
       "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
     }
   ],
-  "power" : 200.0,
   "damageKind" : "haydeegeneral",
   "emitters" : [ "daggerblue" ]
 }

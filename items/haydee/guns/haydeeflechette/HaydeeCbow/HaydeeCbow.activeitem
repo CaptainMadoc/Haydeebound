@@ -204,7 +204,7 @@
 		
 		//ammo bullet
 		"compatibleAmmo" 	: [ "haydeeflechette" ],
-		"projectileConfig" 	: {"speed" : 60, "power" : 20},
+		"projectileConfig" 	: {"speed" : 60, "power" : 60},
 		"projectileType" 	: "haydeeflechette",
 		
 		//visual sfx

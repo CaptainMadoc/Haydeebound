@@ -199,7 +199,7 @@
 		
 		//ammo bullet
 		"compatibleAmmo" 	: [ "haydeepistolammo" ],
-		"projectileConfig" 	: {"speed" : 70, "power" : 3},
+		"projectileConfig" 	: {"speed" : 70, "power" : 10},
 		"projectileType" 	: "haydeepistolshot",
 		
 		//visual sfx

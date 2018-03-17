@@ -43,7 +43,7 @@
 				"properties" : {
 					"zLevel" : 0,
 					"centered" : false,
-					"offset" : [-4.375, -2.2],
+					"offset" : [-3.5, -2.2],
 					"transformationGroups" : ["armback", "offset"],
 					"image" : "/humanoid/<species>/backarm.png:<armbackframe><armbackdirectives>"
 				}
@@ -53,7 +53,7 @@
 				"properties" : {
 					"zLevel" : 1,
 					"centered" : false,
-					"offset" : [-4.375, -2.2],
+					"offset" : [-3.5, -2.2],
 					"transformationGroups" : ["armback", "offset"],
 					"image" : "<armbackarmor>"
 				}
@@ -249,7 +249,7 @@
 				{
 					"particle" : {
 						"color" : [255, 255, 255, 64],
-						"size" : 0.1,
+						"size" : 0.2,
 						"image" : "/items/haydee/sprite/particles/smoke.png",
 						"destructionAction" : "shrink",
 						"timeToLive" : 1,
