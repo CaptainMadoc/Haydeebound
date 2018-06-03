@@ -1,0 +1,224 @@
+{
+	//UIinfo
+	"itemName" : "gampbows",
+	"shortdescription" : "Compact Gamp Bow",
+	"description" : "description here",
+	"category" : "Crossbow",
+	"tooltipKind" : "base",
+	"inventoryIcon" : "icon.png",
+
+	//API scripts
+	"scriptClass" : "/gunsboundunsung/base/scriptssmallweapon.json",
+	"scripts" : ["/gunsboundunsung/scripts/main.lua"],
+	"scriptDelta" : 1,
+
+	//item settings
+	"rarity" : "common",
+	"maxStack" : 1,
+	"price" : 0,
+	"twoHanded" : false,
+	
+	"animationsKeyFrames" : "default.animation",
+	"compatibleAmmo" : "/items/ammoGroup/gampbolts.json",
+
+	"attachments" : {
+		"muzzle" : {
+			"item" : null,
+			
+			"transformationGroup" : "attachment_muzzle",
+			"part" : "attachment_muzzle",
+			
+			"attachPart" : "gun",
+			"gunTag" : "attachment_muzzle_pos",
+			"gunTagEnd" : "attachment_muzzle_end"
+		}
+	},
+	
+	"gunStats" : {
+		"maxMagazine" : 8,
+		"aimLookRatio" : 0.125,
+		"burst" : 3,
+		"burstCooldown" : 0.2,
+		"recoil" : 1,
+		"recoilRecovery" : 2,
+		"movingInaccuracy" : 8,
+		"standingInaccuracy" : 3,
+		"crouchInaccuracyMultiplier" : 0.25,
+		"muzzleFlash" : 1,
+		"rpm" : 200
+	},
+
+	"fireSounds" : ["/items/guns/gampbolts/gampbows/gampbowsshoot.ogg"],
+	"fireTypes" : ["auto"],
+	"gunPart" : "gun",
+
+	"gunAnimations" : {
+		"shoot" : "shoot",
+		"dry" : "dry",
+		"reload" : "reload",
+		
+		"cock_dry" : "cock_dry",
+		"shoot_dry" : "shoot_dry",
+		"reload_dry" : "reload_dry"
+	},
+
+	"animation" : "/items/guns/gampbolts/gampbows/gampbows.animation",
+	"animationCustom" : {
+		"globalTagDefaults" : {
+			"magazine" : "mag.png"
+		},
+		"sounds" : {
+			"cock" : ["/sfx/gun/reload/shotgun_reload_clip1.ogg"],
+			"cock2" : ["/sfx/gun/reload/shotgun_reload_clip2.ogg"]
+		},
+		"animatedParts" : {
+			"parts" : {
+				"mag" : {
+					"properties" : {
+						"zLevel" : 15,
+						"centered" : false,
+						"image" : "<magazine>",
+						"offset" : [0.0, 0.0],
+						"transformationGroups" : ["mag", "gun", "base"]
+					}
+				},
+				"gunlever" : {
+					"properties" : {
+						"zLevel" : 20,
+						"centered" : false,
+						"image" : "lever.png",
+						"offset" : [0.0, 0.0],
+						"transformationGroups" : ["lever", "gun", "base"]
+					}
+				},
+				
+				"gun" : {
+					"properties" : {
+						"zLevel" : 20,
+						"centered" : false,
+						"image" : "gun.png",
+						"offset" : [0.0, 0.0],
+
+						"attachment_muzzle_pos" : [2.25, 0.95],
+						"attachment_muzzle_end" : [2.7500, 0.95],
+
+						"muzzle_begin" : [2.250, 0.95],
+						"muzzle_end" : [2.7500, 0.95], 
+						"transformationGroups" : ["gun", "base"]
+					}
+				},
+				
+				//
+				"muzzleFlash" : {
+					"properties" : {
+						"transformationGroups" : ["base"],
+						"offset" : [2, -0.375],
+						"color" : [0, 0, 0],
+						"zLevel" : 20,
+						"fullbright" : true,
+						"centered" : false
+					},
+					"partStates" : {
+						"firing" : {
+							"off" : {
+								"properties" : {
+									"image" : "/assetmissing.png"
+								}
+							},
+							"on" : {
+								"properties" : {
+									"image" : "bulletmuzzle3.png:<frame>"
+								}
+							}
+						}
+					}
+				},
+				
+				
+				//
+				"attachment_muzzle" : {
+					"properties" : {
+						"zLevel" : 23,
+						"centered" : false,
+						"image" : "<selfimage>",
+						"offset" : [0.0, 0.0],
+						"transformationGroups" : ["attachment_muzzle"]
+					}
+				},
+
+				"attachment_sight" : {
+					"properties" : {
+						"zLevel" : 23,
+						"centered" : false,
+						"image" : "<selfimage>",
+						"offset" : [0.0, 0.0],
+						"transformationGroups" : ["attachment_sight"]
+					}
+				},
+
+				"attachment_grip" : {
+					"properties" : {
+						"zLevel" : 23,
+						"centered" : false,
+						"image" : "<selfimage>",
+						"offset" : [0.0, 0.0],
+						"transformationGroups" : ["attachment_grip"]
+					}
+				}
+			}
+		},
+		"particleEmitters" : {
+		},
+		"transformationGroups" : {
+			
+			"L_offset" : {
+				"transform" : {"position" : [0.15625, 0]}
+			},
+			"R_arm1" : {
+				"transform" : {"rotation" : 15}
+			},
+			"R_arm2" : {
+				"transform" : {"rotation" : -15}
+			},
+			"L_arm1" : {
+				"transform" : {"rotation" : 15}
+			},
+			"L_arm2" : {
+				"transform" : {"rotation" : -15}
+			},
+			
+			
+			"gun" : {
+				"interpolated" : false,
+				"transform" : {"position" : [-0.59375, -0.34375]}
+			},
+			"lever" : {
+				"interpolated" : false
+			},
+			"mag" : {
+				"interpolated" : false,
+				"transform" : {
+					"position" : [1.125, 0.375],
+					"rotationPoint" : [0.25, 0.125]
+				}
+			},
+
+			//attachments
+			"attachment_muzzle" : {
+				"ignore" : true,
+				"interpolated" : false
+			},
+
+			"attachment_sight" : {
+				"ignore" : true,
+				"interpolated" : false
+			},
+
+			"attachment_grip" : {
+				"ignore" : true,
+				"interpolated" : false
+			}
+		}
+	}
+
+}

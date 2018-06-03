@@ -1,0 +1,22 @@
+{
+	"itemName" : "unsungreddot",
+	"rarity" : "common",
+	"category" : "Attachments | Sight",
+	"price" : 0,
+	"attachment" : {
+		"offset" : [0,0],
+		"scale" : [0.5,0.5],
+		"image" : "/attachments/sight/reddot/reddot.png",
+		"stats" : {
+			"aimLookRatio" : 0.125
+		}
+	},
+	"attachmentType" : "sight",
+	"maxStack" : 1,
+
+	"inventoryIcon" : "/attachments/sight/reddot/reddot.png",
+	"description" : "",
+	"shortdescription" : "Red Dot Sight",
+	"scripts" : ["/gunsboundunsung/scripts/attach.lua"]
+}
+ 

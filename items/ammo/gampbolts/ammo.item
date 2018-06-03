@@ -1,0 +1,12 @@
+{
+	"itemName" : "gampboltsammo",
+	"price" : 5,
+	"rarity" : "common",
+	"maxStack" : 30000,
+	"category" : "craftingMaterial",
+	"inventoryIcon" : "gampboltsammo.png",
+	"description" : "test",
+	"shortdescription" : "Compact Gamp Bolts",
+	"projectile" : "gampboltsproj",
+	"projectileConfig" : {"speed" : 70, "power" : 10}
+}

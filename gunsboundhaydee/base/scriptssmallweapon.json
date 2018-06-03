@@ -1,0 +1,17 @@
+[
+	"/gunsboundhaydee/modules/weaponsmall.lua",
+	"/gunsboundhaydee/modules/attachment.lua",
+	"/gunsboundhaydee/modules/magazine.lua",
+	"/gunsboundhaydee/modules/camera.lua",
+	"/gunsboundhaydee/modules/aim.lua",
+	
+	"/gunsboundhaydee/modules/portraitprocessor.lua",
+	"/gunsboundhaydee/modules/arms.lua",
+	"/gunsboundhaydee/modules/transforms.lua",
+	"/gunsboundhaydee/modules/animation.lua",
+	
+	"/gunsboundhaydee/modules/portraitprocessor.lua",
+	"/gunsboundhaydee/modules/flashlightmanager.lua",
+	"/gunsboundhaydee/modules/lasermanager.lua",
+	"/gunsboundhaydee/modules/uimanager.lua"
+]

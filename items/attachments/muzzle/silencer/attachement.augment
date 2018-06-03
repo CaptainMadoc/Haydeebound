@@ -1,0 +1,22 @@
+{
+	"itemName" : "unsungsilencer",
+	"rarity" : "common",
+	"category" : "Attachments | Silencer",
+	"price" : 0,
+	"attachment" : {
+		"offset" : [-0.25,-0.25],
+		"scale" : [0.5,0.5],
+		"image" : "/attachments/muzzle/silencer/silencer.png",
+		"stats" : {
+			"fireSounds" : ["/guns/sounds/silencer.ogg"]
+		}
+	},
+	"attachmentType" : "muzzle",
+	"maxStack" : 1,
+
+	"inventoryIcon" : "/attachments/muzzle/silencer/silencer.png",
+	"description" : "",
+	"shortdescription" : "Silencer",
+	"scripts" : ["/gunsboundunsung/scripts/attach.lua"]
+}
+ 
