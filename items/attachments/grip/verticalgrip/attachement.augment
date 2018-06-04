@@ -1,5 +1,5 @@
 {
-	"itemName" : "unsungverticalgrip",
+	"itemName" : "haydeeverticalgrip",
 	"rarity" : "common",
 	"shortdescription" : "Vertical Grip",
 	"category" : "Attachments | Grip",
@@ -19,6 +19,6 @@
 
 	"inventoryIcon" : "/attachments/grip/verticalgrip/verticalgrip.png",
 	"description" : "",
-	"scripts" : ["/gunsboundunsung/scripts/attach.lua"]
+	"scripts" : ["/gunsboundhaydee/scripts/attach.lua"]
 }
  

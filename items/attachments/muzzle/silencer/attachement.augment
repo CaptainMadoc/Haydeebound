@@ -1,5 +1,5 @@
 {
-	"itemName" : "unsungsilencer",
+	"itemName" : "haydeesilencer",
 	"rarity" : "common",
 	"category" : "Attachments | Silencer",
 	"price" : 0,
@@ -17,6 +17,6 @@
 	"inventoryIcon" : "/attachments/muzzle/silencer/silencer.png",
 	"description" : "",
 	"shortdescription" : "Silencer",
-	"scripts" : ["/gunsboundunsung/scripts/attach.lua"]
+	"scripts" : ["/gunsboundhaydee/scripts/attach.lua"]
 }
  

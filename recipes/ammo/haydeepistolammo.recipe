@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 333 },
+    { "item" : "plantfibre", "count" : 333 },
+    { "item" : "darkwoodmaterial", "count" : 333 }
+  ],
+  "output" : { "item" : "haydeepistolammo", "count" : 333 },
+  "groups" : [ "mod", "plain", "weapons", "tools", "all" ]
+}

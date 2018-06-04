@@ -1,0 +1,12 @@
+{
+	"itemName" : "haydeesmgammo",
+	"price" : 5,
+	"rarity" : "common",
+	"maxStack" : 30000,
+	"category" : "craftingMaterial",
+	"inventoryIcon" : "haydeesmgammo.png",
+	"description" : "test",
+	"shortdescription" : "Facility SMG Ammo",
+	"projectile" : "haydeesmgproj",
+	"projectileConfig" : {"speed" : 80, "power" : 12}
+}

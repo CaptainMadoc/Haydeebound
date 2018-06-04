@@ -1,0 +1,12 @@
+{
+	"itemName" : "haydeerifleammo",
+	"price" : 5,
+	"rarity" : "common",
+	"maxStack" : 30000,
+	"category" : "craftingMaterial",
+	"inventoryIcon" : "haydeerifleammo.png",
+	"description" : "test",
+	"shortdescription" : "Facility Rifle Ammo",
+	"projectile" : "haydeerifleproj",
+	"projectileConfig" : {"speed" : 150, "power" : 40}
+}

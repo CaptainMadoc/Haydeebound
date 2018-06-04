@@ -1,0 +1,12 @@
+{
+	"itemName" : "haydeepistolammo",
+	"price" : 5,
+	"rarity" : "common",
+	"maxStack" : 30000,
+	"category" : "craftingMaterial",
+	"inventoryIcon" : "haydeepistolammo.png",
+	"description" : "test",
+	"shortdescription" : "Facility Pistol Ammo",
+	"projectile" : "haydeepistolproj",
+	"projectileConfig" : {"speed" : 60, "power" : 10}
+}

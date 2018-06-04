@@ -1,0 +1,26 @@
+{
+  "projectileName" : "haydeepistolproj",
+  "image" : "haydeepistolproj.png",
+  "lightColor" : [96, 10, 3],
+  "fullbright" : true,
+  "animationCycle" : 0.25,
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/haydee/haydeedamage.ogg"
+      ]
+    }
+  ],
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "damageKind" : "haydeegeneral"
+}
+
+
