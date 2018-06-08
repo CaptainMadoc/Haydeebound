@@ -1,0 +1,218 @@
+{
+	//UIinfo
+	"itemName" : "gbbrowningauto5",
+	"shortdescription" : "Browning Auto-5",
+	"description" : "description here",
+	"category" : "base",
+	"tooltipKind" : "base",
+	"inventoryIcon" : "icon.png",
+
+	//API scripts
+	"scriptClass" : "/gunsbound/base/scripts.json",
+	"scripts" : ["/gunsbound/scripts/main.lua"],
+	"animationScripts" : ["/gunsbound/ui/main.lua"],
+	"scriptDelta" : 1,
+
+	//item settings
+	"rarity" : "common",
+	"maxStack" : 1,
+	"price" : 0,
+	"twoHanded" : true,
+	
+	"animationsKeyFrames" : "default.animation",
+	"compatibleAmmo" : "/ammoGroup/gb12gauge.json",
+
+	"attachments" : {
+		"sight" : {
+			"item" : null,
+			
+			"transformationGroup" : "attachment_sight",
+			"part" : "attachment_sight",
+			
+			"attachPart" : "gun",
+			"gunTag" : "attachment_sight_pos",
+			"gunTagEnd" : "attachment_sight_end"
+		}
+	},
+	
+	"gunStats" : {
+		"maxMagazine" : 4,
+		"aimLookRatio" : 0,
+		"burst" : 3,
+		"recoil" : 6,
+		"recoilRecovery" : 12,
+		"movingInaccuracy" : 5,
+		"standingInaccuracy" : 2,
+		"crouchInaccuracyMultiplier" : 0.25,
+		"muzzleFlash" : 1,
+		"rpm" : 300
+	},
+	
+	"fireSounds" : ["/guns/shotgun/gbbrowningauto5/12Gauge.ogg"],
+	"fireTypes" : ["semi"],
+	"gunPart" : "gun",
+
+	"gunAnimations" : {
+		"shoot" : "shoot",
+		"dry" : "dry",
+		"reload" : "reload",
+		"reloadLoop" : "reloadLoop",
+		"reloadEnd" : "reloadEnd",
+		
+		"cock_dry" : "cock_dry"
+	},
+
+	"animation" : "/gunsbound/base/base.animation",
+	"animationCustom" : {
+		"globalTagDefaults" : {},
+		"sounds" : {
+			"pump" : ["/guns/sounds/shotgun_pump.wav"],
+			"pump2" : ["/guns/sounds/shotgun_pump2.wav"],
+			"cock" : ["/guns/shotgun/gbbrowningauto5/reloadingshotgun.ogg"],
+			"cock2" : ["/guns/shotgun/gbbrowningauto5/reloadingshotgun.ogg"]
+		},
+		"animatedParts" : {
+			"parts" : {
+			
+				"gunlever" : {
+					"properties" : {
+						"zLevel" : 18,
+						"centered" : false,
+						"image" : "lever.png",
+						"offset" : [0.0, 0.0],
+						"transformationGroups" : ["lever", "gun", "base"]
+					}
+				},
+				
+				"gun" : {
+					"properties" : {
+						"zLevel" : 19,
+						"centered" : false,
+						"image" : "gun.png",
+						"offset" : [0.0, 0.0],
+
+						"muzzle_begin" : [3.5, 1.125],
+						"muzzle_end" : [3.75, 1.125], 
+						
+						"attachment_sight_pos" : [2.5, 1],
+						"attachment_sight_end" : [2.675, 1], 
+						
+						"transformationGroups" : ["gun", "base"]
+					}
+				},
+				
+				"gunlever2" : {
+					"properties" : {
+						"zLevel" : 20,
+						"centered" : false,
+						"image" : "lever2.png",
+						"offset" : [0.0, 0.0],
+						"transformationGroups" : ["lever2", "gun", "base"]
+					}
+				},
+				
+				//
+				"attachment_sight" : {
+					"properties" : {
+						"zLevel" : 23,
+						"centered" : false,
+						"image" : "<selfimage>",
+						"offset" : [0.0, 0.0],
+						"transformationGroups" : ["attachment_sight"]
+					}
+				},
+				
+				//
+				"muzzleFlash" : {
+					"properties" : {
+						"transformationGroups" : ["base"],
+						"offset" : [1.8, -0.2],
+						"zLevel" : 20,
+						"fullbright" : true,
+						"centered" : false
+					},
+					"partStates" : {
+						"firing" : {
+							"off" : {
+								"properties" : {
+									"image" : "/assetmissing.png"
+								}
+							},
+							"on" : {
+								"properties" : {
+									"image" : "bulletmuzzle3.png:<frame>"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"particleEmitters" : {
+		},
+		"transformationGroups" : {
+			
+			"L_offset" : {
+				"transform" : {
+					"position" : [0.9375, -0.03125]
+				}
+			},
+			"R_offset" : {
+				"transform" : {
+					"position" : [-0.15625, 0]
+				}
+			},
+			"R_arm1" : {
+				"transform" : {
+					"rotation" : -14
+				}
+			},
+			"R_arm2" : {
+				"transform" : {
+					"rotation" : 45
+				}
+			},
+			"R_hand" : {
+				"transform" : {
+					"rotation" : -30.75
+				}
+			},
+			"L_arm1" : {
+				"transform" : {
+					"rotation" : 15
+				}
+			},
+			"L_arm2" : {
+				"transform" : {
+					"rotation" : 0
+				}
+			},
+			
+			
+			"gun" : {
+				"interpolated" : false,
+				"transform" : {
+					"rotationPoint" : [1.6875, 0.5625],
+					"position" : [-1.6875, -0.3125]
+				}
+			},
+			"lever" : {
+				"interpolated" : false
+			},
+			"lever2" : {
+				"interpolated" : false
+			},
+			"mag" : {
+				"interpolated" : false
+			},
+			
+			
+			//attachments
+			"attachment_sight" : {
+				"ignore" : true,
+				"interpolated" : false
+			}
+		}
+	}
+
+}

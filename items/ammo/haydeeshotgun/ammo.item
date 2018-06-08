@@ -1,0 +1,12 @@
+{
+	"itemName" : "haydeeshotgunammo",
+	"price" : 5,
+	"rarity" : "common",
+	"maxStack" : 30000,
+	"category" : "craftingMaterial",
+	"inventoryIcon" : "haydeeshotgunammo.png",
+	"description" : "test",
+	"shortdescription" : "Facility Shotgun Ammo",
+	"projectile" : "haydeeshotgunproj",
+	"projectileConfig" : {"speed" : 60, "power" : 10}
+}

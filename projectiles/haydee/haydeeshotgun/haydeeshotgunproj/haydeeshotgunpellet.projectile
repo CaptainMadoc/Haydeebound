@@ -1,0 +1,15 @@
+{
+  "projectileName" : "haydeeshotgunpellet",
+  "image" : "haydeeshotgunproj.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ]
+}
+
+
