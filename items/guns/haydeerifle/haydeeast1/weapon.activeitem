@@ -96,7 +96,7 @@
 		"reload_dry" : "reload_dry"
 	},
 
-	"animation" : "/gunsboundhaydee/base/haydeesmg1.animation",
+	"animation" : "/gunsboundhaydee/base/haydeeast1.animation",
 	"animationCustom" : {
 		"globalTagDefaults" : {
 			"magazine" : "mag.png"

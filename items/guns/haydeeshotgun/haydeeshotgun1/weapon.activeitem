@@ -1,7 +1,7 @@
 {
 	//UIinfo
-	"itemName" : "gbbrowningauto5",
-	"shortdescription" : "Browning Auto-5",
+	"itemName" : "haydeeshotgun1",
+	"shortdescription" : "Facility Shotgun Mk. 1",
 	"description" : "description here",
 	"category" : "base",
 	"tooltipKind" : "base",
@@ -20,7 +20,7 @@
 	"twoHanded" : true,
 	
 	"animationsKeyFrames" : "default.animation",
-	"compatibleAmmo" : "/ammoGroup/gb12gauge.json",
+	"compatibleAmmo" : "/ammoGroup/haydeeshotgun.json",
 
 	"attachments" : {
 		"sight" : {
@@ -45,10 +45,10 @@
 		"standingInaccuracy" : 2,
 		"crouchInaccuracyMultiplier" : 0.25,
 		"muzzleFlash" : 1,
-		"rpm" : 300
+		"rpm" : 250
 	},
 	
-	"fireSounds" : ["/guns/shotgun/gbbrowningauto5/12Gauge.ogg"],
+	"fireSounds" : ["/items/guns/haydeeshotgun/haydeeshotgun1/12Gauge.ogg"],
 	"fireTypes" : ["semi"],
 	"gunPart" : "gun",
 
@@ -62,7 +62,7 @@
 		"cock_dry" : "cock_dry"
 	},
 
-	"animation" : "/gunsbound/base/base.animation",
+	"animation" : "/gunsboundhaydee/base/haydeeast1.animation",
 	"animationCustom" : {
 		"globalTagDefaults" : {},
 		"sounds" : {
